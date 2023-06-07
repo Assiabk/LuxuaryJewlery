@@ -1,0 +1,50 @@
+.carousel-item {
+    height: 400px; /* Adjust the desired height here */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  /* Custom CSS */
+
+/* Card Styles */
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-rating {
+    color: gold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  /* Adjust Card Sizes */
+  @media (max-width: 575px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .card {
+      width: 18rem;
+    }
+  }
+  
